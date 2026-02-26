@@ -18,10 +18,10 @@ import _ from 'lodash'
 import { WebView } from 'react-native-webview';
 import CookieManager from '@react-native-community/cookies';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import DeviceUserAgent from '../PobOnline/UserAgentProvider'
+import DeviceUserAgent from '../PobOnlineUpdated/UserAgentProvider'
 import UrlHelper from './URLHelper'
 import SplashScreen from 'react-native-splash-screen'
-import BackHandlerHelper from '../PobOnline/BackHandlerHelper'
+import BackHandlerHelper from '../PobOnlineUpdated/BackHandlerHelper'
 import RNShareFile from 'react-native-share-pdf';
 
 let domain= "https://www.pobonline.ro"
